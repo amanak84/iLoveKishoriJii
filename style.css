@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* राधे कृष्णा */
+
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(to left, #7a60ff, #cd9ffa);
+}
+nav{
+    width: 100%;
+    min-height: 60px;
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    margin: auto;
+}
+.supportContent{
+    margin-left: 1000px;
+    /* background-color: yellow; */
+}
+.supportContent a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.channel{
+    /* border: 1px solid white; */
+    width: 160px;
+    height: 60px;
+}
+.channel:hover{
+    cursor:pointer;
+}
+
+.channel img{
+    height: 50px;
+    padding-top: 5px;
+}
+
+.content2{
+    font-family: yatra one;
+    background-color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    color:#7a60ff;
+    border-radius: 8px;
+    text-shadow: 5px 2px 5px #0002;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content2 h2{
+    padding-top: 5px;
+}
+
+.radha{
+    background-image: url("radhasq.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.main{
+    height: 500px;
+    width: 700px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-left: 25px;
+    padding-top: 60px;
+    padding-right: 25px;
+}
+
+.creator{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.name1{
+    font-family: yatra one;
+    font-size: 5rem;
+    font-weight: 600;
+    background: linear-gradient(to left, #7a60ff, #cd9ffa);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.desc{
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.buttons{
+    margin-top: 20px;
+}
+button{
+    border: none;
+    background-color: #eee;
+    width: 120px;
+    height: 40px;
+    margin-right: 3px;
+}
+.buttons :nth-child(2){
+    border: 1px solid #000;
+    background: transparent;
+}
+
+.same:hover{
+    background: #cd9ffa;
+}
+span{
+    color: #fca311;
+}
+
+.icard{
+    height: 500px;
+    width: 350px;
+    background-color: rgba(225,225,225,0.5);
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.4);
+    backdrop-filter: blur(40px);
+    /* -webkit-backdrop-filter: blur(100px); */
+}
+.cardimage{
+    height: 250px;
+    width: 250px;
+    background-image: url("ak.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.cardname{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.cardrole{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.shorts{
+    height: 500px;
+    width: 350px;
+    /* background-color: rgba(225,225,225,0.5); */
+    position: absolute;
+    right: 400px;
+    bottom: 50px;
+    border-radius: 10px;
+}
+.shorts iframe{
+    border-radius: 10px;
+}
+
+.icard0{
+    height: 500px;
+    width: 350px;
+    background-color: rgba(225,225,225,0.5);
+    position: absolute;
+    right: 400px;
+    bottom: 50px;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.4);
+    backdrop-filter: blur(40px);
+    /* -webkit-backdrop-filter: blur(100px); */
+}
+
+.cardimage0{
+    height: 250px;
+    width: 250px;
+    background-image: url("piyulogo.png");
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.cardname0{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.cardrole0{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.buttons :nth-child(2):hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 455px){
+
+    .content{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        /* border: 2px solid white; */
+        margin: auto;
+    }
+
+    .supportContent{
+        /* margin-left: 1000px; */
+        /* background-color: yellow; */
+    }
+
+    /* .supportContent a{
+        padding-right: 20px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+        font-size: 0.9rem;
+    } */
+}
