@@ -15,5 +15,5 @@ subscribe.addEventListener("click", ()=>{
 })
 
 channel.addEventListener("click", ()=>{
-    window.open("https://youtube.com/@priyakantju5611?si=sHPCsStiICC0D0e2");
+    window.open("https://youtube.com/@ilovekishorijii?si=7Xlqp2_uhcH9fDuS");
 })
